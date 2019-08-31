@@ -114,8 +114,6 @@ export class ToolPanelColumnGroupComp extends Component
 
     this.setOpenClosedIcons();
 
-    this.onExpandOrContractClicked();
-
     this.setupDragging();
 
     this.onColumnStateChanged();
